@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <style>
+                .diff-container { display: flex; flex-direction: column; gap: 1em; }
+                .verse-row-header { display: flex; align-items: center; 
+                background-color: #f0f0f0; }
+                .common { background-color: #e6ffe6; }
+                .diffx { background-color: #ffe6aa; }
+                //.diffh { background-color: #ffe6e6; }
+                .diffh {background-color: #ffe6aa;}
+                .similar { background-color: #fff7e6; }
+                .header { background-color: #f0f0f0; }
+                .verse-row {
+    display: flex;
+    // flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+    min-height: 50px;
+    padding: 0.25em;
+}
+
+.diffx {
+    align-self: flex-start;
+    background-color: #ffe6e6;
+}
+
+.diffh {
+    align-self: flex-end;
+    background-color: #fff7e6;//#e6ffe6;
+}
+
+.green {
+    background-color: #e6ffe6;//#fff7e6;
+    }
+
+.yellow {
+    background-color: #ffe6aa;
+    }
+
+.red {
+    //background-color: #e6ffe6;//#fff7e6;
+    }    
+
+.common {
+    background-color: #e6ffe6;//#fff7e6;
+    align-self: anchor-center;
+}
+
+.diffred{
+    background-color: #ff3333;
+    align-self: anchor-center;
+}
+.diffblue{
+    background-color: #3333ff;
+    align-self: anchor-center;
+}
+
+/* Optional: responsive design */
+@media (max-width: 768px) {
+    .verse-row {
+        gap: 0.25em;
+        min-height: 40px;
+    }
+}
+            </style>
+        </head>
+        <body>
+        
+<h2>3_JOHN 1</h2>
+<div class="verse-row-header">Verse 1</div>
+<div class="verse-row"><span class="diffh"><span class="diffred">+</span></span><span class="diffred">Ὁ </span><span class="diffred">πρεσβύτερος </span><span class="diffred">Γαΐῳ </span><span class="diffred">τῷ </span><span class="diffred">ἀγαπητῷ </span><span class="diffred">ὃν </span><span class="diffred">ἐγὼ </span><span class="diffred">ἀγαπῶ </span><span class="diffred">ἐν </span><span class="diffred">ἀληθείᾳ </span></div>
+<div class="verse-row-header">Verse 2</div>
+<div class="verse-row"><span class="diffh"><span class="diffred">+</span></span><span class="diffred">Ἀγαπητέ </span><span class="diffred">περὶ </span><span class="diffred">πάντων </span><span class="diffred">εὔχομαί </span><span class="diffred">σε </span><span class="diffred">εὐοδοῦσθαι </span><span class="diffred">καὶ </span><span class="diffred">ὑγιαίνειν </span><span class="diffred">καθὼς </span><span class="diffred">εὐοδοῦταί </span><span class="diffred">σου </span><span class="diffred">ἡ </span><span class="diffred">ψυχή </span></div>
+<div class="verse-row-header">Verse 3</div>
+<div class="verse-row"><span class="diffh"><span class="diffred">+</span></span><span class="diffred">ἐχάρην </span><span class="diffred">γὰρ </span><span class="diffred">λίαν </span><span class="diffred">ἐρχομένων </span><span class="diffred">ἀδελφῶν </span><span class="diffred">καὶ </span><span class="diffred">μαρτυρούντων </span><span class="diffred">σου </span><span class="diffred">τῇ </span><span class="diffred">ἀληθείᾳ </span><span class="diffred">καθὼς </span><span class="diffred">σὺ </span><span class="diffred">ἐν </span><span class="diffred">ἀληθείᾳ </span><span class="diffred">περιπατεῖς </span></div>
+<div class="verse-row-header">Verse 4</div>
+<div class="verse-row"><span class="diffh"><span class="diffred">+</span></span><span class="diffred">μειζοτέραν </span><span class="diffred">τούτων </span><span class="diffred">οὐκ </span><span class="diffred">ἔχω </span><span class="diffred">χαράν </span><span class="diffred">ἵνα </span><span class="diffred">ἀκούω </span><span class="diffred">τὰ </span><span class="diffred">ἐμὰ </span><span class="diffred">τέκνα </span><span class="diffred">ἐν </span><span class="diffred">τῇ </span><span class="diffred">ἀληθείᾳ </span><span class="diffred">περιπατοῦντα </span></div>
+<div class="verse-row-header">Verse 5</div>
+<div class="verse-row"><span class="diffh"><span class="diffred">+</span></span><span class="diffred">Ἀγαπητέ </span><span class="diffred">πιστὸν </span><span class="diffred">ποιεῖς </span><span class="diffred">ὃ </span><span class="diffred">ἐὰν </span><span class="diffred">ἐργάσῃ </span><span class="diffred">εἰς </span><span class="diffred">τοὺς </span><span class="diffred">ἀδελφοὺς </span><span class="diffred">καὶ </span><span class="diffred">τοῦτο </span><span class="diffred">ξένους </span></div>
+<div class="verse-row-header">Verse 6</div>
+<div class="verse-row"><span class="diffh"><span class="diffred">+</span></span><span class="diffred">οἳ </span><span class="diffred">ἐμαρτύρησάν </span><span class="diffred">σου </span><span class="diffred">τῇ </span><span class="diffred">ἀγάπῃ </span><span class="diffred">ἐνώπιον </span><span class="diffred">ἐκκλησίας </span><span class="diffred">οὓς </span><span class="diffred">καλῶς </span><span class="diffred">ποιήσεις </span><span class="diffred">προπέμψας </span><span class="diffred">ἀξίως </span><span class="diffred">τοῦ </span><span class="diffred">Θεοῦ </span></div>
+<div class="verse-row-header">Verse 7</div>
+<div class="verse-row"><span class="diffh"><span class="diffred">+</span></span><span class="diffred">ὑπὲρ </span><span class="diffred">γὰρ </span><span class="diffred">τοῦ </span><span class="diffred">Ὀνόματος </span><span class="diffred">ἐξῆλθον* </span><span class="diffred">μηδὲν </span><span class="diffred">λαμβάνοντες </span><span class="diffred">ἀπὸ </span><span class="diffred">τῶν </span><span class="diffred">ἐθνικῶν </span></div>
+<div class="verse-row-header">Verse 8</div>
+<div class="verse-row"><span class="diffh"><span class="diffred">+</span></span><span class="diffred">ἡμεῖς </span><span class="diffred">οὖν </span><span class="diffred">ὀφείλομεν </span><span class="diffred">ὑπολαμβάνειν </span><span class="diffred">τοὺς </span><span class="diffred">τοιούτους </span><span class="diffred">ἵνα </span><span class="diffred">συνεργοὶ </span><span class="diffred">γινώμεθα </span><span class="diffred">τῇ </span><span class="diffred">ἀληθείᾳ </span></div>
+<div class="verse-row-header">Verse 9</div>
+<div class="verse-row"><span class="diffh"><span class="diffred">+</span></span><span class="diffred">Ἔγραψά </span><span class="diffred">τι </span><span class="diffred">τῇ </span><span class="diffred">ἐκκλησίᾳ </span><span class="diffred">ἀλλ’ </span><span class="diffred">ὁ </span><span class="diffred">φιλοπρωτεύων </span><span class="diffred">αὐτῶν </span><span class="diffred">Διοτρεφὴς </span><span class="diffred">οὐκ </span><span class="diffred">ἐπιδέχεται </span><span class="diffred">ἡμᾶς </span></div>
+<div class="verse-row-header">Verse 10</div>
+<div class="verse-row"><span class="diffh"><span class="diffred">+</span></span><span class="diffred">διὰ </span><span class="diffred">τοῦτο </span><span class="diffred">ἐὰν </span><span class="diffred">ἔλθω </span><span class="diffred">ὑπομνήσω </span><span class="diffred">αὐτοῦ </span><span class="diffred">τὰ </span><span class="diffred">ἔργα </span><span class="diffred">ἃ </span><span class="diffred">ποιεῖ </span><span class="diffred">λόγοις </span><span class="diffred">πονηροῖς </span><span class="diffred">φλυαρῶν </span><span class="diffred">ἡμᾶς </span><span class="diffred">καὶ </span><span class="diffred">μὴ </span><span class="diffred">ἀρκούμενος </span><span class="diffred">ἐπὶ </span><span class="diffred">τούτοις </span><span class="diffred">οὔτε </span><span class="diffred">αὐτὸς </span><span class="diffred">ἐπιδέχεται </span><span class="diffred">τοὺς </span><span class="diffred">ἀδελφοὺς </span><span class="diffred">καὶ </span><span class="diffred">τοὺς </span><span class="diffred">βουλομένους </span><span class="diffred">κωλύει </span><span class="diffred">καὶ </span><span class="diffred">ἐκ </span><span class="diffred">τῆς </span><span class="diffred">ἐκκλησίας </span><span class="diffred">ἐκβάλλει </span></div>
+<div class="verse-row-header">Verse 11</div>
+<div class="verse-row"><span class="diff-container"> <span class="diffx"><span class="red">ὁ</span></span>
+<span class="diffh"><span class="red">Ἀ</span><span class="red">γαπητέ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">κ</span><span class="red">α</span><span class="red">κοποιῶν</span></span>
+<span class="diffh"><span class="red">μ</span><span class="red">ὴ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">ο</span><span class="red">ὐ</span><span class="red">χ</span></span>
+<span class="diffh"><span class="red">μ</span><span class="red">ι</span><span class="red">μ</span><span class="red">οῦ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">ἑ</span><span class="red">ώ</span><span class="red">ρακεν</span></span>
+<span class="diffh"><span class="red">τ</span><span class="red">ὸ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">τ</span><span class="red">ὸ</span><span class="red">ν</span></span>
+<span class="diffh"><span class="red">κ</span><span class="red">α</span><span class="red">κ</span><span class="red">ὸν</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">θ</span><span class="red">ε</span><span class="red">ό</span><span class="red">ν</span></span>
+<span class="diffh"><span class="red">ἀ</span><span class="red">λ</span><span class="red">λ</span><span class="red">ὰ</span></span> </span> <span class="diffh"><span class="diffred">+</span></span><span class="diffred">τὸ </span><span class="diffred">ἀγαθόν </span><span class="diffred">ὁ </span><span class="diffred">ἀγαθοποιῶν </span><span class="diffred">ἐκ </span><span class="diffred">τοῦ </span><span class="diffred">Θεοῦ </span><span class="diffred">ἐστιν </span><span class="diffred">ὁ </span><span class="diffred">κακοποιῶν </span><span class="diffred">οὐχ </span><span class="diffred">ἑώρακεν </span><span class="diffred">τὸν </span><span class="diffred">Θεόν </span></div>
+<div class="verse-row-header">-- Additional Verse 12</div>
+<div class="verse-row"><span class="common"><span class="diffh"><span class="diffred">Δημητρίῳ</span></span> <span class="common"><span class="diffh"><span class="diffred">μεμαρτύρηται</span></span> <span class="common"><span class="diffh"><span class="diffred">ὑπὸ</span></span> <span class="common"><span class="diffh"><span class="diffred">πάντων</span></span> <span class="common"><span class="diffh"><span class="diffred">καὶ</span></span> <span class="common"><span class="diffh"><span class="diffred">ὑπὸ</span></span> <span class="common"><span class="diffh"><span class="diffred">αὐτῆς</span></span> <span class="common"><span class="diffh"><span class="diffred">τῆς</span></span> <span class="common"><span class="diffh"><span class="diffred">ἀληθείας</span></span> <span class="common"><span class="diffh"><span class="diffred">καὶ</span></span> <span class="common"><span class="diffh"><span class="diffred">ἡμεῖς</span></span> <span class="common"><span class="diffh"><span class="diffred">δὲ</span></span> <span class="common"><span class="diffh"><span class="diffred">μαρτυροῦμεν</span></span> <span class="common"><span class="diffh"><span class="diffred">καὶ</span></span> <span class="common"><span class="diffh"><span class="diffred">οἶδας</span></span> <span class="common"><span class="diffh"><span class="diffred">ὅτι</span></span> <span class="common"><span class="diffh"><span class="diffred">ἡ</span></span> <span class="common"><span class="diffh"><span class="diffred">μαρτυρία</span></span> <span class="common"><span class="diffh"><span class="diffred">ἡμῶν</span></span> <span class="common"><span class="diffh"><span class="diffred">ἀληθής</span></span> <span class="common"><span class="diffh"><span class="diffred">ἐστιν</span></span></div>
+<div class="verse-row-header">-- Additional Verse 13</div>
+<div class="verse-row"><span class="common"><span class="diffh"><span class="diffred">Πολλὰ</span></span> <span class="common"><span class="diffh"><span class="diffred">εἶχον</span></span> <span class="common"><span class="diffh"><span class="diffred">γράψαι</span></span> <span class="common"><span class="diffh"><span class="diffred">σοι</span></span> <span class="common"><span class="diffh"><span class="diffred">ἀλλ’</span></span> <span class="common"><span class="diffh"><span class="diffred">οὐ</span></span> <span class="common"><span class="diffh"><span class="diffred">θέλω</span></span> <span class="common"><span class="diffh"><span class="diffred">διὰ</span></span> <span class="common"><span class="diffh"><span class="diffred">μέλανος</span></span> <span class="common"><span class="diffh"><span class="diffred">καὶ</span></span> <span class="common"><span class="diffh"><span class="diffred">καλάμου</span></span> <span class="common"><span class="diffh"><span class="diffred">σοι</span></span> <span class="common"><span class="diffh"><span class="diffred">γράφειν</span></span></div>
+<div class="verse-row-header">-- Additional Verse 14</div>
+<div class="verse-row"><span class="common"><span class="diffh"><span class="diffred">ἐλπίζω</span></span> <span class="common"><span class="diffh"><span class="diffred">δὲ</span></span> <span class="common"><span class="diffh"><span class="diffred">εὐθέως</span></span> <span class="common"><span class="diffh"><span class="diffred">σε</span></span> <span class="common"><span class="diffh"><span class="diffred">ἰδεῖν</span></span> <span class="common"><span class="diffh"><span class="diffred">καὶ</span></span> <span class="common"><span class="diffh"><span class="diffred">στόμα</span></span> <span class="common"><span class="diffh"><span class="diffred">πρὸς</span></span> <span class="common"><span class="diffh"><span class="diffred">στόμα</span></span> <span class="common"><span class="diffh"><span class="diffred">λαλήσομεν</span></span> <span class="common"><span class="diffh"><span class="diffred">Εἰρήνη</span></span> <span class="common"><span class="diffh"><span class="diffred">σοι</span></span> <span class="common"><span class="diffh"><span class="diffred">Ἀσπάζονταί</span></span> <span class="common"><span class="diffh"><span class="diffred">σε</span></span> <span class="common"><span class="diffh"><span class="diffred">οἱ</span></span> <span class="common"><span class="diffh"><span class="diffred">φίλοι</span></span> <span class="common"><span class="diffh"><span class="diffred">Ἀσπάζου</span></span> <span class="common"><span class="diffh"><span class="diffred">τοὺς</span></span> <span class="common"><span class="diffh"><span class="diffred">φίλους</span></span> <span class="common"><span class="diffh"><span class="diffred">κατ’</span></span> <span class="common"><span class="diffh"><span class="diffred">ὄνομα</span></span></div>
+</body></html>

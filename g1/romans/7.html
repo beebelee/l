@@ -1,0 +1,158 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <style>
+                .diff-container { display: flex; flex-direction: column; gap: 1em; }
+                .verse-row-header { display: flex; align-items: center; 
+                background-color: #f0f0f0; }
+                .common { background-color: #e6ffe6; }
+                .diffx { background-color: #ffe6aa; }
+                //.diffh { background-color: #ffe6e6; }
+                .diffh {background-color: #ffe6aa;}
+                .similar { background-color: #fff7e6; }
+                .header { background-color: #f0f0f0; }
+                .verse-row {
+    display: flex;
+    // flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+    min-height: 50px;
+    padding: 0.25em;
+}
+
+.diffx {
+    align-self: flex-start;
+    background-color: #ffe6e6;
+}
+
+.diffh {
+    align-self: flex-end;
+    background-color: #fff7e6;//#e6ffe6;
+}
+
+.green {
+    background-color: #e6ffe6;//#fff7e6;
+    }
+
+.yellow {
+    background-color: #ffe6aa;
+    }
+
+.red {
+    //background-color: #e6ffe6;//#fff7e6;
+    }    
+
+.common {
+    background-color: #e6ffe6;//#fff7e6;
+    align-self: anchor-center;
+}
+
+.diffred{
+    background-color: #ff3333;
+    align-self: anchor-center;
+}
+.diffblue{
+    background-color: #3333ff;
+    align-self: anchor-center;
+}
+
+/* Optional: responsive design */
+@media (max-width: 768px) {
+    .verse-row {
+        gap: 0.25em;
+        min-height: 40px;
+    }
+}
+            </style>
+        </head>
+        <body>
+        
+<h2>ROMANS 7</h2>
+<div class="verse-row-header">Verse 1</div>
+<div class="verse-row"><span class="common">Ἢ</span> <span class="common">ἀγνοεῖτε</span> <span class="common">ἀδελφοί</span> <span class="common">γινώσκουσιν</span> <span class="common">γὰρ</span> <span class="common">νόμον</span> <span class="common">λαλῶ</span> <span class="common">ὅτι</span> <span class="common">ὁ</span> <span class="common">νόμος</span> <span class="common">κυριεύει</span> <span class="common">τοῦ</span> <span class="common">ἀνθρώπου</span> <span class="common">ἐφ’</span> <span class="common">ὅσον</span> <span class="common">χρόνον</span> <span class="common">ζῇ</span></div>
+<div class="verse-row-header">Verse 2</div>
+<div class="verse-row"><span class="common">ἡ</span> <span class="common">γὰρ</span> <span class="common">ὕπανδρος</span> <span class="common">γυνὴ</span> <span class="common">τῷ</span> <span class="common">ζῶντι</span> <span class="common">ἀνδρὶ</span> <span class="common">δέδεται</span> <span class="common">νόμῳ</span> <span class="common">ἐὰν</span> <span class="common">δὲ</span> <span class="common">ἀποθάνῃ</span> <span class="common">ὁ</span> <span class="common">ἀνήρ</span> <span class="common">κατήργηται</span> <span class="common">ἀπὸ</span> <span class="common">τοῦ</span> <span class="common">νόμου</span> <span class="common">τοῦ</span> <span class="common">ἀνδρός</span></div>
+<div class="verse-row-header">Verse 3</div>
+<div class="verse-row"><span class="common">ἄρα</span> <span class="common">οὖν</span> <span class="common">ζῶντος</span> <span class="common">τοῦ</span> <span class="common">ἀνδρὸς</span> <span class="common">μοιχαλὶς</span> <span class="common">χρηματίσει</span> <span class="common">ἐὰν</span> <span class="common">γένηται</span> <span class="common">ἀνδρὶ</span> <span class="common">ἑτέρῳ</span> <span class="common">ἐὰν</span> <span class="common">δὲ</span> <span class="common">ἀποθάνῃ</span> <span class="common">ὁ</span> <span class="common">ἀνήρ</span> <span class="common">ἐλευθέρα</span> <span class="common">ἐστὶν</span> <span class="common">ἀπὸ</span> <span class="common">τοῦ</span> <span class="common">νόμου</span> <span class="common">τοῦ</span> <span class="common">μὴ</span> <span class="common">εἶναι</span> <span class="common">αὐτὴν</span> <span class="common">μοιχαλίδα</span> <span class="common">γενομένην</span> <span class="common">ἀνδρὶ</span> <span class="common">ἑτέρῳ</span></div>
+<div class="verse-row-header">Verse 4</div>
+<div class="verse-row"><span class="diff-container"> <span class="diffx"><span class="yellow">ὥ</span><span class="green">σ</span><span class="green">τ</span><span class="green">ε</span></span>
+<span class="diffh"><span class="yellow">Ὥ</span><span class="green">σ</span><span class="green">τ</span><span class="green">ε</span></span> </span> <span class="common">ἀδελφοί</span> <span class="common">μου</span> <span class="common">καὶ</span> <span class="common">ὑμεῖς</span> <span class="common">ἐθανατώθητε</span> <span class="common">τῷ</span> <span class="common">νόμῳ</span> <span class="common">διὰ</span> <span class="common">τοῦ</span> <span class="common">σώματος</span> <span class="common">τοῦ</span> <span class="common">Χριστοῦ</span> <span class="common">εἰς</span> <span class="common">τὸ</span> <span class="common">γενέσθαι</span> <span class="common">ὑμᾶς</span> <span class="common">ἑτέρῳ</span> <span class="common">τῷ</span> <span class="common">ἐκ</span> <span class="common">νεκρῶν</span> <span class="common">ἐγερθέντι</span> <span class="common">ἵνα</span> <span class="common">καρποφορήσωμεν</span> <span class="common">τῷ</span> <span class="diff-container"> <span class="diffx"><span class="yellow">θ</span><span class="green">ε</span><span class="green">ῷ</span></span>
+<span class="diffh"><span class="yellow">Θ</span><span class="green">ε</span><span class="green">ῷ</span></span> </span></div>
+<div class="verse-row-header">Verse 5</div>
+<div class="verse-row"><span class="common">ὅτε</span> <span class="common">γὰρ</span> <span class="common">ἦμεν</span> <span class="common">ἐν</span> <span class="common">τῇ</span> <span class="common">σαρκί</span> <span class="common">τὰ</span> <span class="common">παθήματα</span> <span class="common">τῶν</span> <span class="common">ἁμαρτιῶν</span> <span class="common">τὰ</span> <span class="common">διὰ</span> <span class="common">τοῦ</span> <span class="common">νόμου</span> <span class="common">ἐνηργεῖτο</span> <span class="common">ἐν</span> <span class="common">τοῖς</span> <span class="common">μέλεσιν</span> <span class="common">ἡμῶν</span> <span class="common">εἰς</span> <span class="common">τὸ</span> <span class="common">καρποφορῆσαι</span> <span class="common">τῷ</span> <span class="common">θανάτῳ</span></div>
+<div class="verse-row-header">Verse 6</div>
+<div class="verse-row"><span class="common">νυνὶ</span> <span class="common">δὲ</span> <span class="common">κατηργήθημεν</span> <span class="common">ἀπὸ</span> <span class="common">τοῦ</span> <span class="common">νόμου</span> <span class="common">ἀποθανόντες</span> <span class="common">ἐν</span> <span class="common">ᾧ</span> <span class="common">κατειχόμεθα</span> <span class="common">ὥστε</span> <span class="common">δουλεύειν</span> <span class="common">ἡμᾶς</span> <span class="common">ἐν</span> <span class="common">καινότητι</span> <span class="common">πνεύματος</span> <span class="common">καὶ</span> <span class="common">οὐ</span> <span class="common">παλαιότητι</span> <span class="common">γράμματος</span></div>
+<div class="verse-row-header">Verse 7</div>
+<div class="verse-row"><span class="common">Τί</span> <span class="common">οὖν</span> <span class="common">ἐροῦμεν</span> <span class="common">ὁ</span> <span class="common">νόμος</span> <span class="common">ἁμαρτία</span> <span class="common">μὴ</span> <span class="common">γένοιτο</span> <span class="common">ἀλλὰ</span> <span class="common">τὴν</span> <span class="common">ἁμαρτίαν</span> <span class="common">οὐκ</span> <span class="common">ἔγνων</span> <span class="common">εἰ</span> <span class="common">μὴ</span> <span class="common">διὰ</span> <span class="common">νόμου</span> <span class="common">τήν</span> <span class="common">τε</span> <span class="common">γὰρ</span> <span class="common">ἐπιθυμίαν</span> <span class="common">οὐκ</span> <span class="common">ᾔδειν</span> <span class="common">εἰ</span> <span class="common">μὴ</span> <span class="common">ὁ</span> <span class="common">νόμος</span> <span class="common">ἔλεγεν</span> <span class="diff-container"> <span class="diffx"><span class="yellow">ο</span><span class="green">ὐ</span><span class="green">κ</span></span>
+<span class="diffh"><span class="yellow">Ο</span><span class="green">ὐ</span><span class="green">κ</span></span> </span> <span class="common">ἐπιθυμήσεις</span></div>
+<div class="verse-row-header">Verse 8</div>
+<div class="verse-row"><span class="common">ἀφορμὴν</span> <span class="common">δὲ</span> <span class="common">λαβοῦσα</span> <span class="common">ἡ</span> <span class="common">ἁμαρτία</span> <span class="common">διὰ</span> <span class="common">τῆς</span> <span class="common">ἐντολῆς</span> <span class="diff-container"> <span class="diffx"><span class="green">κ</span><span class="green">α</span><span class="green">τ</span><span class="red">η</span><span class="red">ρ</span><span class="red">γ</span><span class="red">ά</span><span class="red">σ</span><span class="red">α</span><span class="red">τ</span><span class="red">ο</span></span>
+<span class="diffh"><span class="green">κ</span><span class="green">α</span><span class="green">τ</span><span class="red">ε</span><span class="red">ι</span><span class="red">ρ</span><span class="red">γ</span><span class="red">ά</span><span class="red">σ</span><span class="red">α</span><span class="red">τ</span><span class="red">ο</span></span> </span> <span class="common">ἐν</span> <span class="common">ἐμοὶ</span> <span class="common">πᾶσαν</span> <span class="common">ἐπιθυμίαν</span> <span class="common">χωρὶς</span> <span class="common">γὰρ</span> <span class="common">νόμου</span> <span class="common">ἁμαρτία</span> <span class="common">νεκρά</span></div>
+<div class="verse-row-header">Verse 9</div>
+<div class="verse-row"><span class="diff-container"> <span class="diffx"><span class="yellow">ἐ</span><span class="green">γ</span><span class="green">ὼ</span></span>
+<span class="diffh"><span class="yellow">Ἐ</span><span class="green">γ</span><span class="green">ὼ</span></span> </span> <span class="common">δὲ</span> <span class="common">ἔζων</span> <span class="common">χωρὶς</span> <span class="common">νόμου</span> <span class="common">ποτέ</span> <span class="common">ἐλθούσης</span> <span class="common">δὲ</span> <span class="common">τῆς</span> <span class="common">ἐντολῆς</span> <span class="common">ἡ</span> <span class="common">ἁμαρτία</span> <span class="common">ἀνέζησεν</span> <span class="diffh"><span class="diffred">+</span></span><span class="diffred">ἐγὼ </span><span class="diffred">δὲ </span><span class="diffred">ἀπέθανον </span></div>
+<div class="verse-row-header">Verse 10</div>
+<div class="verse-row"><span class="diff-container"> <span class="diffx"><span class="red">ἐ</span><span class="red">γ</span><span class="red">ὼ</span></span>
+<span class="diffh"><span class="red">κ</span><span class="red">α</span><span class="red">ὶ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">δ</span><span class="red">ὲ</span></span>
+<span class="diffh"><span class="red">ε</span><span class="red">ὑ</span><span class="red">ρέθη</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">ἀ</span><span class="red">π</span><span class="red">έ</span><span class="red">θανον</span></span>
+<span class="diffh"><span class="red">μ</span><span class="red">ο</span><span class="red">ι</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">κ</span><span class="red">αὶ</span></span>
+<span class="diffh"><span class="red">ἡ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">ε</span><span class="red">ὑ</span><span class="red">ρ</span><span class="red">έ</span><span class="red">θ</span><span class="red">η</span></span>
+<span class="diffh"><span class="red">ἐ</span><span class="red">ν</span><span class="red">τ</span><span class="red">ο</span><span class="red">λ</span><span class="red">ὴ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">μ</span><span class="red">οι</span></span>
+<span class="diffh"><span class="red">ἡ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">ἡ</span></span>
+<span class="diffh"><span class="red">ε</span><span class="red">ἰς</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">ἐ</span><span class="red">ν</span><span class="red">τ</span><span class="red">ο</span><span class="red">λὴ</span></span>
+<span class="diffh"><span class="red">ζ</span><span class="red">ω</span><span class="red">ὴ</span><span class="red">ν</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">ἡ</span></span>
+<span class="diffh"><span class="red">α</span><span class="red">ὕτη</span></span> </span> <span class="common">εἰς</span> <span class="diff-container"> <span class="diffx"><span class="red">ζ</span><span class="red">ω</span><span class="red">ὴ</span><span class="red">ν</span></span>
+<span class="diffh"><span class="red">θ</span><span class="red">ά</span><span class="red">ν</span><span class="red">α</span><span class="red">τον</span></span> </span> <span class="diffx"><span class="diffblue">-</span></span><span class="diffblue">αὕτη </span><span class="diffblue">εἰς </span><span class="diffblue">θάνατον </span></div>
+<div class="verse-row-header">Verse 11</div>
+<div class="verse-row"><span class="common">ἡ</span> <span class="common">γὰρ</span> <span class="common">ἁμαρτία</span> <span class="common">ἀφορμὴν</span> <span class="common">λαβοῦσα</span> <span class="common">διὰ</span> <span class="common">τῆς</span> <span class="common">ἐντολῆς</span> <span class="common">ἐξηπάτησέν</span> <span class="common">με</span> <span class="common">καὶ</span> <span class="common">δι’</span> <span class="common">αὐτῆς</span> <span class="common">ἀπέκτεινεν</span></div>
+<div class="verse-row-header">Verse 12</div>
+<div class="verse-row"><span class="diff-container"> <span class="diffx"><span class="yellow">ὥ</span><span class="green">σ</span><span class="green">τ</span><span class="green">ε</span></span>
+<span class="diffh"><span class="yellow">Ὥ</span><span class="green">σ</span><span class="green">τ</span><span class="green">ε</span></span> </span> <span class="common">ὁ</span> <span class="common">μὲν</span> <span class="common">νόμος</span> <span class="common">ἅγιος</span> <span class="common">καὶ</span> <span class="common">ἡ</span> <span class="common">ἐντολὴ</span> <span class="common">ἁγία</span> <span class="common">καὶ</span> <span class="common">δικαία</span> <span class="common">καὶ</span> <span class="common">ἀγαθή</span></div>
+<div class="verse-row-header">Verse 13</div>
+<div class="verse-row"><span class="diff-container"> <span class="diffx"><span class="yellow">τ</span><span class="green">ὸ</span></span>
+<span class="diffh"><span class="yellow">Τ</span><span class="green">ὸ</span></span> </span> <span class="common">οὖν</span> <span class="common">ἀγαθὸν</span> <span class="common">ἐμοὶ</span> <span class="common">ἐγένετο</span> <span class="common">θάνατος</span> <span class="common">μὴ</span> <span class="common">γένοιτο</span> <span class="common">ἀλλὰ</span> <span class="common">ἡ</span> <span class="common">ἁμαρτία</span> <span class="common">ἵνα</span> <span class="common">φανῇ</span> <span class="common">ἁμαρτία</span> <span class="common">διὰ</span> <span class="common">τοῦ</span> <span class="common">ἀγαθοῦ</span> <span class="common">μοι</span> <span class="common">κατεργαζομένη</span> <span class="common">θάνατον</span> <span class="common">ἵνα</span> <span class="common">γένηται</span> <span class="common">καθ’</span> <span class="common">ὑπερβολὴν</span> <span class="common">ἁμαρτωλὸς</span> <span class="common">ἡ</span> <span class="common">ἁμαρτία</span> <span class="common">διὰ</span> <span class="common">τῆς</span> <span class="common">ἐντολῆς</span></div>
+<div class="verse-row-header">Verse 14</div>
+<div class="verse-row"><span class="diff-container"> <span class="diffx"><span class="yellow">ο</span><span class="green">ἴ</span><span class="green">δ</span><span class="green">α</span><span class="green">μ</span><span class="green">ε</span><span class="green">ν</span></span>
+<span class="diffh"><span class="yellow">Ο</span><span class="green">ἴ</span><span class="green">δ</span><span class="green">α</span><span class="green">μ</span><span class="green">ε</span><span class="green">ν</span></span> </span> <span class="common">γὰρ</span> <span class="common">ὅτι</span> <span class="common">ὁ</span> <span class="common">νόμος</span> <span class="common">πνευματικός</span> <span class="common">ἐστιν</span> <span class="common">ἐγὼ</span> <span class="common">δὲ</span> <span class="common">σάρκινός</span> <span class="common">εἰμι</span> <span class="common">πεπραμένος</span> <span class="common">ὑπὸ</span> <span class="common">τὴν</span> <span class="common">ἁμαρτίαν</span></div>
+<div class="verse-row-header">Verse 15</div>
+<div class="verse-row"><span class="common">ὃ</span> <span class="common">γὰρ</span> <span class="common">κατεργάζομαι</span> <span class="common">οὐ</span> <span class="common">γινώσκω</span> <span class="common">οὐ</span> <span class="common">γὰρ</span> <span class="common">ὃ</span> <span class="common">θέλω</span> <span class="common">τοῦτο</span> <span class="common">πράσσω</span> <span class="common">ἀλλ’</span> <span class="common">ὃ</span> <span class="common">μισῶ</span> <span class="common">τοῦτο</span> <span class="common">ποιῶ</span></div>
+<div class="verse-row-header">Verse 16</div>
+<div class="verse-row"><span class="common">εἰ</span> <span class="common">δὲ</span> <span class="common">ὃ</span> <span class="common">οὐ</span> <span class="common">θέλω</span> <span class="common">τοῦτο</span> <span class="common">ποιῶ</span> <span class="common">σύμφημι</span> <span class="common">τῷ</span> <span class="common">νόμῳ</span> <span class="common">ὅτι</span> <span class="common">καλός</span></div>
+<div class="verse-row-header">Verse 17</div>
+<div class="verse-row"><span class="common">νυνὶ</span> <span class="common">δὲ</span> <span class="common">οὐκέτι</span> <span class="common">ἐγὼ</span> <span class="common">κατεργάζομαι</span> <span class="common">αὐτὸ</span> <span class="common">ἀλλὰ</span> <span class="common">ἡ</span> <span class="diff-container"> <span class="diffx"><span class="red">ἐ</span><span class="red">ν</span><span class="red">ο</span><span class="red">ι</span><span class="red">κ</span><span class="red">ο</span><span class="red">ῦ</span><span class="red">σ</span><span class="red">α</span></span>
+<span class="diffh"><span class="red">ο</span><span class="red">ἰ</span><span class="red">κ</span><span class="red">ο</span><span class="red">ῦ</span><span class="red">σ</span><span class="red">α</span><span class="red">*</span></span> </span> <span class="common">ἐν</span> <span class="common">ἐμοὶ</span> <span class="common">ἁμαρτία</span></div>
+<div class="verse-row-header">Verse 18</div>
+<div class="verse-row"><span class="diff-container"> <span class="diffx"><span class="yellow">ο</span><span class="green">ἶ</span><span class="green">δ</span><span class="green">α</span></span>
+<span class="diffh"><span class="yellow">Ο</span><span class="green">ἶ</span><span class="green">δ</span><span class="green">α</span></span> </span> <span class="common">γὰρ</span> <span class="common">ὅτι</span> <span class="common">οὐκ</span> <span class="common">οἰκεῖ</span> <span class="common">ἐν</span> <span class="common">ἐμοί</span> <span class="common">τοῦτ’</span> <span class="common">ἔστιν</span> <span class="common">ἐν</span> <span class="common">τῇ</span> <span class="common">σαρκί</span> <span class="common">μου</span> <span class="common">ἀγαθόν</span> <span class="common">τὸ</span> <span class="common">γὰρ</span> <span class="common">θέλειν</span> <span class="common">παράκειταί</span> <span class="common">μοι</span> <span class="common">τὸ</span> <span class="common">δὲ</span> <span class="common">κατεργάζεσθαι</span> <span class="common">τὸ</span> <span class="common">καλὸν</span> <span class="common">οὔ</span></div>
+<div class="verse-row-header">Verse 19</div>
+<div class="verse-row"><span class="common">οὐ</span> <span class="common">γὰρ</span> <span class="common">ὃ</span> <span class="common">θέλω</span> <span class="common">ποιῶ</span> <span class="common">ἀγαθόν</span> <span class="common">ἀλλὰ</span> <span class="common">ὃ</span> <span class="common">οὐ</span> <span class="common">θέλω</span> <span class="common">κακὸν</span> <span class="common">τοῦτο</span> <span class="common">πράσσω</span></div>
+<div class="verse-row-header">Verse 20</div>
+<div class="verse-row"><span class="common">εἰ</span> <span class="common">δὲ</span> <span class="common">ὃ</span> <span class="common">οὐ</span> <span class="common">θέλω</span> <span class="common">ἐγὼ</span> <span class="common">τοῦτο</span> <span class="common">ποιῶ</span> <span class="common">οὐκέτι</span> <span class="common">ἐγὼ</span> <span class="common">κατεργάζομαι</span> <span class="common">αὐτὸ</span> <span class="common">ἀλλὰ</span> <span class="common">ἡ</span> <span class="common">οἰκοῦσα</span> <span class="common">ἐν</span> <span class="common">ἐμοὶ</span> <span class="common">ἁμαρτία</span></div>
+<div class="verse-row-header">Verse 21</div>
+<div class="verse-row"><span class="diff-container"> <span class="diffx"><span class="yellow">ε</span><span class="green">ὑ</span><span class="green">ρ</span><span class="green">ί</span><span class="green">σ</span><span class="green">κ</span><span class="green">ω</span></span>
+<span class="diffh"><span class="yellow">Ε</span><span class="green">ὑ</span><span class="green">ρ</span><span class="green">ί</span><span class="green">σ</span><span class="green">κ</span><span class="green">ω</span></span> </span> <span class="common">ἄρα</span> <span class="common">τὸν</span> <span class="common">νόμον</span> <span class="common">τῷ</span> <span class="common">θέλοντι</span> <span class="common">ἐμοὶ</span> <span class="common">ποιεῖν</span> <span class="common">τὸ</span> <span class="common">καλὸν</span> <span class="common">ὅτι</span> <span class="common">ἐμοὶ</span> <span class="common">τὸ</span> <span class="common">κακὸν</span> <span class="common">παράκειται</span></div>
+<div class="verse-row-header">Verse 22</div>
+<div class="verse-row"><span class="common">συνήδομαι</span> <span class="common">γὰρ</span> <span class="common">τῷ</span> <span class="common">νόμῳ</span> <span class="common">τοῦ</span> <span class="diff-container"> <span class="diffx"><span class="yellow">θ</span><span class="green">ε</span><span class="green">ο</span><span class="green">ῦ</span></span>
+<span class="diffh"><span class="yellow">Θ</span><span class="green">ε</span><span class="green">ο</span><span class="green">ῦ</span></span> </span> <span class="common">κατὰ</span> <span class="common">τὸν</span> <span class="common">ἔσω</span> <span class="common">ἄνθρωπον</span></div>
+<div class="verse-row-header">Verse 23</div>
+<div class="verse-row"><span class="common">βλέπω</span> <span class="common">δὲ</span> <span class="common">ἕτερον</span> <span class="common">νόμον</span> <span class="common">ἐν</span> <span class="common">τοῖς</span> <span class="common">μέλεσίν</span> <span class="common">μου</span> <span class="common">ἀντιστρατευόμενον</span> <span class="common">τῷ</span> <span class="common">νόμῳ</span> <span class="common">τοῦ</span> <span class="common">νοός</span> <span class="common">μου</span> <span class="common">καὶ</span> <span class="common">αἰχμαλωτίζοντά</span> <span class="common">με</span> <span class="common">ἐν</span> <span class="common">τῷ</span> <span class="common">νόμῳ</span> <span class="common">τῆς</span> <span class="common">ἁμαρτίας</span> <span class="common">τῷ</span> <span class="common">ὄντι</span> <span class="common">ἐν</span> <span class="common">τοῖς</span> <span class="common">μέλεσίν</span> <span class="common">μου</span></div>
+<div class="verse-row-header">Verse 24</div>
+<div class="verse-row"><span class="diff-container"> <span class="diffx"><span class="yellow">τ</span><span class="green">α</span><span class="green">λ</span><span class="green">α</span><span class="green">ί</span><span class="green">π</span><span class="green">ω</span><span class="green">ρ</span><span class="green">ο</span><span class="green">ς</span></span>
+<span class="diffh"><span class="yellow">Τ</span><span class="green">α</span><span class="green">λ</span><span class="green">α</span><span class="green">ί</span><span class="green">π</span><span class="green">ω</span><span class="green">ρ</span><span class="green">ο</span><span class="green">ς</span></span> </span> <span class="common">ἐγὼ</span> <span class="common">ἄνθρωπος</span> <span class="common">τίς</span> <span class="common">με</span> <span class="common">ῥύσεται</span> <span class="common">ἐκ</span> <span class="common">τοῦ</span> <span class="common">σώματος</span> <span class="common">τοῦ</span> <span class="common">θανάτου</span> <span class="common">τούτου</span></div>
+<div class="verse-row-header">Verse 25</div>
+<div class="verse-row"><span class="common">χάρις</span> <span class="diff-container"> <span class="diffx"><span class="red">δ</span><span class="red">ὲ</span></span>
+<span class="diffh"><span class="red">[</span><span class="red">δ</span><span class="red">ὲ]</span></span> </span> <span class="common">τῷ</span> <span class="diff-container"> <span class="diffx"><span class="yellow">θ</span><span class="green">ε</span><span class="green">ῷ</span></span>
+<span class="diffh"><span class="yellow">Θ</span><span class="green">ε</span><span class="green">ῷ</span></span> </span> <span class="common">διὰ</span> <span class="common">Ἰησοῦ</span> <span class="common">Χριστοῦ</span> <span class="common">τοῦ</span> <span class="diff-container"> <span class="diffx"><span class="yellow">κ</span><span class="green">υ</span><span class="green">ρ</span><span class="green">ί</span><span class="green">ο</span><span class="green">υ</span></span>
+<span class="diffh"><span class="yellow">Κ</span><span class="green">υ</span><span class="green">ρ</span><span class="green">ί</span><span class="green">ο</span><span class="green">υ</span></span> </span> <span class="common">ἡμῶν</span> <span class="diff-container"> <span class="diffx"><span class="yellow">ἄ</span><span class="green">ρ</span><span class="green">α</span></span>
+<span class="diffh"><span class="yellow">Ἄ</span><span class="green">ρ</span><span class="green">α</span></span> </span> <span class="common">οὖν</span> <span class="common">αὐτὸς</span> <span class="common">ἐγὼ</span> <span class="common">τῷ</span> <span class="diff-container"> <span class="diffx"><span class="red">ν</span><span class="red">ο</span><span class="red">ῒ</span></span>
+<span class="diffh"><span class="red">μ</span><span class="red">ὲ</span><span class="red">ν</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">δ</span><span class="green">ο</span><span class="red">υ</span><span class="red">λεύω</span></span>
+<span class="diffh"><span class="red">ν</span><span class="green">ο</span><span class="red">ῒ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">ν</span><span class="red">ό</span><span class="red">μ</span><span class="red">ῳ</span></span>
+<span class="diffh"><span class="red">δ</span><span class="red">ο</span><span class="red">υ</span><span class="red">λ</span><span class="red">εύω</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">θ</span><span class="red">ε</span><span class="red">ο</span><span class="red">ῦ</span></span>
+<span class="diffh"><span class="red">ν</span><span class="red">ό</span><span class="red">μ</span><span class="red">ῳ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">τ</span><span class="red">ῇ</span></span>
+<span class="diffh"><span class="red">Θ</span><span class="red">ε</span><span class="red">οῦ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">δ</span><span class="red">ὲ</span></span>
+<span class="diffh"><span class="red">τ</span><span class="red">ῇ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">σ</span><span class="red">α</span><span class="red">ρκὶ</span></span>
+<span class="diffh"><span class="red">δ</span><span class="red">ὲ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">ν</span><span class="red">ό</span><span class="red">μ</span><span class="red">ῳ</span></span>
+<span class="diffh"><span class="red">σ</span><span class="red">α</span><span class="red">ρ</span><span class="red">κ</span><span class="red">ὶ</span></span> </span> <span class="diff-container"> <span class="diffx"><span class="red">ἁ</span><span class="red">μ</span><span class="red">α</span><span class="red">ρ</span><span class="red">τίας</span></span>
+<span class="diffh"><span class="red">ν</span><span class="red">ό</span><span class="red">μ</span><span class="red">ῳ</span></span> </span> <span class="diffh"><span class="diffred">+</span></span><span class="diffred">ἁμαρτίας </span></div>
+</body></html>
