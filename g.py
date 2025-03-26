@@ -4,7 +4,7 @@ from typing import List, Set
 
 def get_folder_name_without_extension(path: str) -> str:
     """Extract folder name without extension."""
-    return os.path.basename(Path(path).parent)
+    return f'{os.path.basename(Path(path).parent)}_{os.path.basename(Path(path))}'
 
 def generate_index_html(directory: str) -> None:
     """
