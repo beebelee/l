@@ -4,6 +4,7 @@ from typing import List, Set
 
 def get_folder_name_without_extension(path: str) -> str:
     """Extract folder name without extension."""
+    print(path)
     return f'{os.path.basename(Path(path).parent)}_{os.path.basename(Path(path))}'
 
 def generate_index_html(directory: str) -> None:
@@ -86,8 +87,8 @@ def process_directory_tree(start_dir: str) -> None:
     """
     for root, dirs, _ in os.walk(start_dir):
         # Skip if directory already has index.html
-        if 'index.html' in os.listdir(root):
-            continue
+        #if 'index.html' in os.listdir(root):
+        #    continue
             
         # Generate index.html for this directory
         generate_index_html(root)
